@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(214, 162, 237);
+}
+
+
+.topo {
+    width: 100vw;
+    position:relative;
+    background-color: rgb(125, 26, 183);
+    height: 80px;
+}
+
+.topo img{
+    padding: 10px 40px;
+}
+
+nav > ul {
+    list-style: none;
+
+}
+
+nav > ul > li > a {
+    padding-left: 20px;
+    color: white;
+}
+
+main {
+    color: rgb(125, 26, 183);
+}
+main h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(125, 26, 183);
+    color: white;
+    width: 100vw;
+    position: relative;
+}
+
+footer img{
+    width: 200px;
+    height: 150px;
+    margin: 20px 10px;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+#rodape {
+    background-color: rgb(183, 110, 225);
+    padding: 10px;
+    text-align: center;
+
+}
