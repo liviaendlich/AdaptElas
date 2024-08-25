@@ -1,0 +1,154 @@
+/*///////////////////////////main/////////////////////////////*/
+main {
+    margin-bottom: 3rem;
+}
+
+main>.div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem 0 2rem;
+    gap: 2rem;
+}
+
+
+/*//////              DESCRIÇÃO                  //////////*/
+.descricao-hover {
+    position: absolute;
+    background-color: var(--transparente-escuro);
+    color: white;
+    margin-top: 120px;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    width: 250px;
+}
+
+.card:hover .descricao-hover {
+    opacity: 1;
+}
+
+
+
+/*//////////////////////////banner/////////////////////////////*/
+
+.banner {
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagens/paty.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+
+}
+
+.banner>img {
+    width: 300px;
+    margin-right: 2rem;
+}
+
+.banner>h2 {
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+/*///////////////////////div-card////////////////////////*/
+.div-cards {
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*//////////////////////////card//////////////////////////////*/
+.card {
+    width: 21.25rem;
+
+}
+
+.cabecalho {
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 2rem 2rem 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho>img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.cabecalho>h2 {
+    font-size: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-color: var(--claro-roxo);
+    color: var(--roxo);
+    border-radius: 0 0 1.5rem 1.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.conteudo>p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    max-height: 3rem;
+    min-height: 3rem;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.estrelas>button {
+    background-color: transparent;
+    border: none;
+}
+
+.marcada {
+    color: var(--roxo);
+}
+
+
+/*/////////RESPONSIVIDADE////////*/
+@media screen and (max-width: 425px) {
+    .banner>img {
+        width: 200px;
+        margin-right: 1rem;
+    }
+
+    .banner>h2 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+}
