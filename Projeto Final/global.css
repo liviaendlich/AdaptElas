@@ -17,7 +17,9 @@
 
 /*body*/
 body {
-    background-image: url(./imagens/fundoMeuCinema.png);
+    background-image: url(./imagens/fundoGlobal.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 /*header*/
