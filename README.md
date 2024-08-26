@@ -2,10 +2,10 @@
 <div style="display: inline_block"><br>
 
 <h3>Meu cinema: </h3>
-<img align="center" alt="meucinema"  src="\imgs\print_MeuCinema.jpg">
+<img align="center" alt="meucinema"  src="\imgs\meuCinema.jpg">
 <div style="display: inline_block"><br>
 
 
 <h3>Meu filme favorito</h3>
-<img align="center" alt="meucinema"  src="\imgs\print_MeuFilmeFavorito.jpg">
+<img align="center" alt="meuFavorito"  src="\imgs\Favorito.jpg">
 <div style="display: inline_block"><br>
